@@ -72,8 +72,8 @@ spec:
         githubEmail = 'aksgdkwhfduq@gmail.com' //myaccount@example.com
         githubId = 'kimsihyon' //myaccount 
         githubRepo = 'jenkins-kubernetes' //jenkins-kube-deploy
-        githubURL = "https://github.com/kimsihyon/jenkins-kubernetes.git${githubId}/${githubRepo}.git"
-        dockerhubId = 'sihyeon112' //myaccount
+        githubURL = "https://github.com/${githubId}/${githubRepo}.git"
+	dockerhubId = 'sihyeon112' //myaccount
         dockerhubRepo = 'sihyeon112/jenkins-kaniko' //hello-world
       }
       steps {
